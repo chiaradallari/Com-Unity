@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  infoViewController.h
 //  Com-Unity
 //
 //  Created by Stardust on 04/02/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface infoViewController : UIPageViewController
 
 @end
