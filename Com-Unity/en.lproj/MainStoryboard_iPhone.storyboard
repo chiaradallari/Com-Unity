@@ -76,14 +76,14 @@ tramite cui tante persone ripongono la propria fiducia versando somme di denaro,
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Nd4-3r-Awu" firstAttribute="top" secondItem="hla-0h-nhS" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0Fr-JN-C3S"/>
-                                    <constraint firstItem="hla-0h-nhS" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" constant="23" id="18p-ZV-ksN"/>
                                     <constraint firstItem="Nd4-3r-Awu" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="D1y-iV-34X"/>
                                     <constraint firstItem="hla-0h-nhS" firstAttribute="centerX" secondItem="Nd4-3r-Awu" secondAttribute="centerX" type="default" id="Gqa-Fv-m7e"/>
                                     <constraint firstItem="Nd4-3r-Awu" firstAttribute="centerX" secondItem="5Tg-Bs-HmO" secondAttribute="centerX" type="default" id="Nyw-X0-sDL"/>
+                                    <constraint firstAttribute="bottom" secondItem="v1a-BM-8Cz" secondAttribute="bottom" constant="147" id="QLB-q4-h1h"/>
                                     <constraint firstItem="Nd4-3r-Awu" firstAttribute="centerX" secondItem="v1a-BM-8Cz" secondAttribute="centerX" type="default" id="RYa-Jy-qEN"/>
                                     <constraint firstAttribute="trailing" secondItem="Nd4-3r-Awu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="k48-wk-K9W"/>
                                     <constraint firstItem="v1a-BM-8Cz" firstAttribute="top" secondItem="Nd4-3r-Awu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rki-xc-4su"/>
-                                    <constraint firstAttribute="bottom" secondItem="v1a-BM-8Cz" secondAttribute="bottom" constant="196" id="uYi-ss-sLR"/>
+                                    <constraint firstItem="hla-0h-nhS" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" constant="72" id="uTM-9X-7YH"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -389,16 +389,16 @@ Il web ed i social network sono il punto di incontro, la “piazza” dove vengo
                                     </pageControl>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="FAw-YH-XWq" secondAttribute="bottom" constant="245" id="6EY-wq-Lgs"/>
-                                    <constraint firstItem="Hzs-gc-q8i" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" constant="20" symbolic="YES" type="default" id="MUg-1d-Jim"/>
+                                    <constraint firstItem="2N8-cJ-RNf" firstAttribute="centerX" secondItem="SkP-YN-PKt" secondAttribute="centerX" type="default" id="EMS-Yd-YWN"/>
                                     <constraint firstAttribute="trailing" secondItem="2N8-cJ-RNf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="NOm-OM-t3R"/>
                                     <constraint firstItem="2N8-cJ-RNf" firstAttribute="top" secondItem="Hzs-gc-q8i" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="OaR-JZ-FQf"/>
+                                    <constraint firstAttribute="bottom" secondItem="FAw-YH-XWq" secondAttribute="bottom" constant="195" id="Oj0-Jk-2G9"/>
+                                    <constraint firstItem="Hzs-gc-q8i" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" constant="70" id="Qex-G8-dyW"/>
                                     <constraint firstItem="Hzs-gc-q8i" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bMu-lC-4TV"/>
                                     <constraint firstAttribute="trailing" secondItem="Hzs-gc-q8i" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cxT-j3-LEE"/>
                                     <constraint firstItem="2N8-cJ-RNf" firstAttribute="centerX" secondItem="FAw-YH-XWq" secondAttribute="centerX" type="default" id="hUI-6i-ca2"/>
                                     <constraint firstItem="2N8-cJ-RNf" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="qE2-4w-7S1"/>
                                     <constraint firstItem="FAw-YH-XWq" firstAttribute="top" secondItem="2N8-cJ-RNf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qZu-ZH-4e7"/>
-                                    <constraint firstItem="FAw-YH-XWq" firstAttribute="centerX" secondItem="SkP-YN-PKt" secondAttribute="centerX" type="default" id="tiZ-2c-Vf0"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -457,13 +457,13 @@ Com-Unity</string>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="jyh-QZ-Lpm" firstAttribute="top" secondItem="qZJ-6i-r8H" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="7oj-on-hz6"/>
-                                    <constraint firstItem="2MU-5p-lUc" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" constant="20" symbolic="YES" type="default" id="FON-d3-qHW"/>
                                     <constraint firstItem="qZJ-6i-r8H" firstAttribute="top" secondItem="2MU-5p-lUc" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="J8j-R1-Myw"/>
                                     <constraint firstAttribute="trailing" secondItem="qZJ-6i-r8H" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JxF-KI-Ymq"/>
+                                    <constraint firstItem="2MU-5p-lUc" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" constant="70" id="K00-18-fFE"/>
                                     <constraint firstItem="qZJ-6i-r8H" firstAttribute="centerX" secondItem="jyh-QZ-Lpm" secondAttribute="centerX" type="default" id="ON9-AY-hwr"/>
-                                    <constraint firstItem="jyh-QZ-Lpm" firstAttribute="centerX" secondItem="qXk-3o-pFH" secondAttribute="centerX" type="default" id="ThT-2I-Pf8"/>
+                                    <constraint firstAttribute="bottom" secondItem="jyh-QZ-Lpm" secondAttribute="bottom" constant="195" id="TqF-eX-FoC"/>
                                     <constraint firstItem="qZJ-6i-r8H" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Wqu-DM-lRS"/>
-                                    <constraint firstAttribute="bottom" secondItem="jyh-QZ-Lpm" secondAttribute="bottom" constant="245" id="XWl-Qz-h58"/>
+                                    <constraint firstItem="2MU-5p-lUc" firstAttribute="centerX" secondItem="qXk-3o-pFH" secondAttribute="centerX" type="default" id="fuk-H5-gai"/>
                                     <constraint firstItem="2MU-5p-lUc" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="n6r-gB-chI"/>
                                     <constraint firstAttribute="trailing" secondItem="2MU-5p-lUc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="rbx-wN-vWl"/>
                                 </constraints>
@@ -521,14 +521,14 @@ Com-Unity</string>
                                 <constraints>
                                     <constraint firstItem="1Af-W7-rf4" firstAttribute="centerX" secondItem="tgJ-P4-iuf" secondAttribute="centerX" type="default" id="0Jp-Xq-CRy"/>
                                     <constraint firstItem="565-qb-WlU" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="6Ox-kY-bXe"/>
-                                    <constraint firstItem="565-qb-WlU" firstAttribute="centerX" secondItem="KjJ-Ez-bQc" secondAttribute="centerX" type="default" id="B7x-NZ-wcy"/>
+                                    <constraint firstAttribute="bottom" secondItem="tgJ-P4-iuf" secondAttribute="bottom" constant="196" id="GHU-Yk-SEe"/>
                                     <constraint firstAttribute="trailing" secondItem="1Af-W7-rf4" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="MLG-Hg-ls2"/>
                                     <constraint firstItem="1Af-W7-rf4" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="OeI-9b-Que"/>
+                                    <constraint firstItem="565-qb-WlU" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" constant="69" id="US6-6J-ABw"/>
                                     <constraint firstItem="tgJ-P4-iuf" firstAttribute="top" secondItem="1Af-W7-rf4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W1E-eI-Udg"/>
                                     <constraint firstItem="1Af-W7-rf4" firstAttribute="top" secondItem="565-qb-WlU" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W7a-vB-Vra"/>
                                     <constraint firstAttribute="trailing" secondItem="565-qb-WlU" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bw6-II-weW"/>
-                                    <constraint firstItem="565-qb-WlU" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" constant="20" symbolic="YES" type="default" id="i83-H4-Osq"/>
-                                    <constraint firstAttribute="bottom" secondItem="tgJ-P4-iuf" secondAttribute="bottom" constant="245" id="pak-zd-2am"/>
+                                    <constraint firstItem="565-qb-WlU" firstAttribute="centerX" secondItem="KjJ-Ez-bQc" secondAttribute="centerX" type="default" id="cJT-M4-png"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
