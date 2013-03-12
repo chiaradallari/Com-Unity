@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface cellaView : UICollectionViewCell
-
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+-(void)rendivisibile:(BOOL)visibile;
 @end

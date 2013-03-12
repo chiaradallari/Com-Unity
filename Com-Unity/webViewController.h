@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface webViewController : UIViewController
+@interface webViewController : UIViewController<UIWebViewDelegate>
+{
+    IBOutlet UIWebView *webView;
+    IBOutlet UIProgressView *progresso;
+	NSString *indirizzo;
+    NSTimer *timer;
+	double mynumber;
+}
+
+@property (nonatomic, retain) NSString *indirizzo;
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
+@property(nonatomic,retain)UIProgressView *progresso;
+@property(nonatomic,readwrite)double mynumber;
+
+-(void)configureView;
 
 @end

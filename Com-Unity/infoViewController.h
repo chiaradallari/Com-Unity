@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface infoViewController : UIPageViewController
+
+@interface infoViewController : UIPageViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate>{
+    NSArray *pages;
+    
+}
+
+
 
 @end

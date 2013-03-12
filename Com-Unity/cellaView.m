@@ -14,9 +14,17 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
     }
     return self;
+}
+
+-(void)rendivisibile:(BOOL)vedo
+{
+    if (vedo) {
+        self.imageView.hidden=NO;
+    }
+    else
+        self.imageView.hidden=YES;
 }
 
 /*
