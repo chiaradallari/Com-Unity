@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B439E01516F1DB5C006DDE64 /* 1 - una storia come tante.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E00C16F1DB5C006DDE64 /* 1 - una storia come tante.png */; };
+		B439E01616F1DB5C006DDE64 /* 2 - l'idea.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E00D16F1DB5C006DDE64 /* 2 - l'idea.png */; };
+		B439E01716F1DB5C006DDE64 /* 3 - gli ostacoli.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E00E16F1DB5C006DDE64 /* 3 - gli ostacoli.png */; };
+		B439E01816F1DB5C006DDE64 /* 4 - Com-Unity.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E00F16F1DB5C006DDE64 /* 4 - Com-Unity.png */; };
+		B439E01916F1DB5C006DDE64 /* 5 - il progetto.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E01016F1DB5C006DDE64 /* 5 - il progetto.png */; };
+		B439E01A16F1DB5C006DDE64 /* 6 - la raccolta fondi.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E01116F1DB5C006DDE64 /* 6 - la raccolta fondi.png */; };
+		B439E01B16F1DB5C006DDE64 /* 7 - nasce una nuova azienda.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E01216F1DB5C006DDE64 /* 7 - nasce una nuova azienda.png */; };
+		B439E01C16F1DB5C006DDE64 /* 8 - un mondo migliore.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E01316F1DB5C006DDE64 /* 8 - un mondo migliore.png */; };
+		B439E01D16F1DB5C006DDE64 /* 9 - imprenditori si diventa.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E01416F1DB5C006DDE64 /* 9 - imprenditori si diventa.png */; };
 		FC45A86616C0270A00D8F29C /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC45A86516C0270A00D8F29C /* infoViewController.m */; };
 		FC6AB75216BFE47A00D41728 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AB75116BFE47A00D41728 /* UIKit.framework */; };
 		FC6AB75416BFE47A00D41728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AB75316BFE47A00D41728 /* Foundation.framework */; };
@@ -34,20 +43,27 @@
 		FC9B9BA116C1393500B68E6D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9B9BA016C1393500B68E6D /* Default.png */; };
 		FC9B9BA216C1393D00B68E6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9B9B9C16C1391400B68E6D /* Default@2x.png */; };
 		FC9B9BA316C1394400B68E6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9B9B9E16C1391D00B68E6D /* Default-568h@2x.png */; };
-		FCD7FEC516EF9E0200102C77 /* Ancient Roman DNA Project.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEBC16EF9E0200102C77 /* Ancient Roman DNA Project.png */; };
-		FCD7FEC616EF9E0200102C77 /* BlackOut.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEBD16EF9E0200102C77 /* BlackOut.png */; };
-		FCD7FEC716EF9E0200102C77 /* Fattelo!.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEBE16EF9E0200102C77 /* Fattelo!.png */; };
-		FCD7FEC816EF9E0200102C77 /* Pebble.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEBF16EF9E0200102C77 /* Pebble.png */; };
-		FCD7FEC916EF9E0200102C77 /* Proteggiamo i gorilla.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEC016EF9E0200102C77 /* Proteggiamo i gorilla.png */; };
-		FCD7FECA16EF9E0200102C77 /* Sellanapp.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEC116EF9E0200102C77 /* Sellanapp.png */; };
-		FCD7FECB16EF9E0200102C77 /* Tous Mécènes.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEC216EF9E0200102C77 /* Tous Mécènes.png */; };
-		FCD7FECC16EF9E0200102C77 /* Trail Me Up.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEC316EF9E0200102C77 /* Trail Me Up.png */; };
-		FCD7FECD16EF9E0200102C77 /* UFHO2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FEC416EF9E0200102C77 /* UFHO2.png */; };
+		FCAEF32216F23315009C94F7 /* Smammas.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FCAEF32116F23315009C94F7 /* Smammas.mp4 */; };
+		FCAEF32416F23360009C94F7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAEF32316F23360009C94F7 /* MediaPlayer.framework */; };
+		FCAEF32716F233D3009C94F7 /* videoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAEF32616F233D3009C94F7 /* videoViewController.m */; };
 		FCD7FECF16EF9EBA00102C77 /* startup.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FECE16EF9EBA00102C77 /* startup.plist */; };
 		FCEFF7B016C15D9000FCDECC /* dettaglioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFF7AF16C15D9000FCDECC /* dettaglioViewController.m */; };
+		FCFA1CD616F220C900F1D702 /* bannerinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFA1CD516F220C900F1D702 /* bannerinfo.png */; };
+		FCFA1CD816F220D000F1D702 /* BarreLati.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFA1CD716F220D000F1D702 /* BarreLati.png */; };
+		FCFA1CDA16F220DA00F1D702 /* iniziapartita.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFA1CD916F220DA00F1D702 /* iniziapartita.png */; };
+		FCFA1CDC16F220E200F1D702 /* Quadrato_sfondo.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFA1CDB16F220E200F1D702 /* Quadrato_sfondo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B439E00C16F1DB5C006DDE64 /* 1 - una storia come tante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 - una storia come tante.png"; sourceTree = "<group>"; };
+		B439E00D16F1DB5C006DDE64 /* 2 - l'idea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 - l'idea.png"; sourceTree = "<group>"; };
+		B439E00E16F1DB5C006DDE64 /* 3 - gli ostacoli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 - gli ostacoli.png"; sourceTree = "<group>"; };
+		B439E00F16F1DB5C006DDE64 /* 4 - Com-Unity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4 - Com-Unity.png"; sourceTree = "<group>"; };
+		B439E01016F1DB5C006DDE64 /* 5 - il progetto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5 - il progetto.png"; sourceTree = "<group>"; };
+		B439E01116F1DB5C006DDE64 /* 6 - la raccolta fondi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6 - la raccolta fondi.png"; sourceTree = "<group>"; };
+		B439E01216F1DB5C006DDE64 /* 7 - nasce una nuova azienda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7 - nasce una nuova azienda.png"; sourceTree = "<group>"; };
+		B439E01316F1DB5C006DDE64 /* 8 - un mondo migliore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8 - un mondo migliore.png"; sourceTree = "<group>"; };
+		B439E01416F1DB5C006DDE64 /* 9 - imprenditori si diventa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9 - imprenditori si diventa.png"; sourceTree = "<group>"; };
 		FC45A86416C0270A00D8F29C /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
 		FC45A86516C0270A00D8F29C /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
 		FC6AB74E16BFE47A00D41728 /* Com-Unity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Com-Unity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +84,6 @@
 		FC6AB78216BFE5E900D41728 /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewController.h; sourceTree = "<group>"; };
 		FC6AB78316BFE5E900D41728 /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewController.m; sourceTree = "<group>"; };
 		FC6AB78516BFE87900D41728 /* IDCNews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IDCNews.png; sourceTree = "<group>"; };
-		FC6AB78A16C0187700D41728 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		FC9B9B7016C10C7600B68E6D /* ipad@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad@x2.png"; sourceTree = "<group>"; };
 		FC9B9B7216C10C7D00B68E6D /* ipad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_icon.png; sourceTree = "<group>"; };
 		FC9B9B7416C10CB600B68E6D /* iphone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_icon.png; sourceTree = "<group>"; };
@@ -87,18 +102,17 @@
 		FC9B9B9C16C1391400B68E6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FC9B9B9E16C1391D00B68E6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FC9B9BA016C1393500B68E6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FCD7FEBC16EF9E0200102C77 /* Ancient Roman DNA Project.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ancient Roman DNA Project.png"; sourceTree = "<group>"; };
-		FCD7FEBD16EF9E0200102C77 /* BlackOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackOut.png; sourceTree = "<group>"; };
-		FCD7FEBE16EF9E0200102C77 /* Fattelo!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fattelo!.png"; sourceTree = "<group>"; };
-		FCD7FEBF16EF9E0200102C77 /* Pebble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pebble.png; sourceTree = "<group>"; };
-		FCD7FEC016EF9E0200102C77 /* Proteggiamo i gorilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Proteggiamo i gorilla.png"; sourceTree = "<group>"; };
-		FCD7FEC116EF9E0200102C77 /* Sellanapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sellanapp.png; sourceTree = "<group>"; };
-		FCD7FEC216EF9E0200102C77 /* Tous Mécènes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tous Mécènes.png"; sourceTree = "<group>"; };
-		FCD7FEC316EF9E0200102C77 /* Trail Me Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trail Me Up.png"; sourceTree = "<group>"; };
-		FCD7FEC416EF9E0200102C77 /* UFHO2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFHO2.png; sourceTree = "<group>"; };
+		FCAEF32116F23315009C94F7 /* Smammas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Smammas.mp4; sourceTree = "<group>"; };
+		FCAEF32316F23360009C94F7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FCAEF32516F233D3009C94F7 /* videoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoViewController.h; sourceTree = "<group>"; };
+		FCAEF32616F233D3009C94F7 /* videoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoViewController.m; sourceTree = "<group>"; };
 		FCD7FECE16EF9EBA00102C77 /* startup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = startup.plist; sourceTree = "<group>"; };
 		FCEFF7AE16C15D9000FCDECC /* dettaglioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dettaglioViewController.h; sourceTree = "<group>"; };
 		FCEFF7AF16C15D9000FCDECC /* dettaglioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dettaglioViewController.m; sourceTree = "<group>"; };
+		FCFA1CD516F220C900F1D702 /* bannerinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerinfo.png; sourceTree = "<group>"; };
+		FCFA1CD716F220D000F1D702 /* BarreLati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarreLati.png; sourceTree = "<group>"; };
+		FCFA1CD916F220DA00F1D702 /* iniziapartita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iniziapartita.png; sourceTree = "<group>"; };
+		FCFA1CDB16F220E200F1D702 /* Quadrato_sfondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quadrato_sfondo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAEF32416F23360009C94F7 /* MediaPlayer.framework in Frameworks */,
 				FC6AB75216BFE47A00D41728 /* UIKit.framework in Frameworks */,
 				FC6AB75416BFE47A00D41728 /* Foundation.framework in Frameworks */,
 				FC6AB75616BFE47A00D41728 /* CoreGraphics.framework in Frameworks */,
@@ -146,7 +161,7 @@
 		FC6AB75016BFE47A00D41728 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC6AB78A16C0187700D41728 /* iAd.framework */,
+				FCAEF32316F23360009C94F7 /* MediaPlayer.framework */,
 				FC6AB75116BFE47A00D41728 /* UIKit.framework */,
 				FC6AB75316BFE47A00D41728 /* Foundation.framework */,
 				FC6AB75516BFE47A00D41728 /* CoreGraphics.framework */,
@@ -165,22 +180,29 @@
 				FC6AB78316BFE5E900D41728 /* webViewController.m */,
 				FC45A86416C0270A00D8F29C /* infoViewController.h */,
 				FC45A86516C0270A00D8F29C /* infoViewController.m */,
+				FCAEF32516F233D3009C94F7 /* videoViewController.h */,
+				FCAEF32616F233D3009C94F7 /* videoViewController.m */,
 				FC9B9B8C16C1170C00B68E6D /* playViewController.h */,
 				FC9B9B8D16C1170C00B68E6D /* playViewController.m */,
 				FC9B9B8F16C1172300B68E6D /* cellaView.h */,
 				FC9B9B9016C1172300B68E6D /* cellaView.m */,
 				FCEFF7AE16C15D9000FCDECC /* dettaglioViewController.h */,
 				FCEFF7AF16C15D9000FCDECC /* dettaglioViewController.m */,
-				FCD7FEBC16EF9E0200102C77 /* Ancient Roman DNA Project.png */,
-				FCD7FEBD16EF9E0200102C77 /* BlackOut.png */,
-				FCD7FEBE16EF9E0200102C77 /* Fattelo!.png */,
-				FCD7FEBF16EF9E0200102C77 /* Pebble.png */,
-				FCD7FEC016EF9E0200102C77 /* Proteggiamo i gorilla.png */,
-				FCD7FEC116EF9E0200102C77 /* Sellanapp.png */,
-				FCD7FEC216EF9E0200102C77 /* Tous Mécènes.png */,
-				FCD7FEC316EF9E0200102C77 /* Trail Me Up.png */,
-				FCD7FEC416EF9E0200102C77 /* UFHO2.png */,
 				FCD7FECE16EF9EBA00102C77 /* startup.plist */,
+				FCFA1CD516F220C900F1D702 /* bannerinfo.png */,
+				FCFA1CDB16F220E200F1D702 /* Quadrato_sfondo.png */,
+				FCFA1CD916F220DA00F1D702 /* iniziapartita.png */,
+				FCFA1CD716F220D000F1D702 /* BarreLati.png */,
+				FCAEF32116F23315009C94F7 /* Smammas.mp4 */,
+				B439E00C16F1DB5C006DDE64 /* 1 - una storia come tante.png */,
+				B439E00D16F1DB5C006DDE64 /* 2 - l'idea.png */,
+				B439E00E16F1DB5C006DDE64 /* 3 - gli ostacoli.png */,
+				B439E00F16F1DB5C006DDE64 /* 4 - Com-Unity.png */,
+				B439E01016F1DB5C006DDE64 /* 5 - il progetto.png */,
+				B439E01116F1DB5C006DDE64 /* 6 - la raccolta fondi.png */,
+				B439E01216F1DB5C006DDE64 /* 7 - nasce una nuova azienda.png */,
+				B439E01316F1DB5C006DDE64 /* 8 - un mondo migliore.png */,
+				B439E01416F1DB5C006DDE64 /* 9 - imprenditori si diventa.png */,
 				FC9B9B8A16C113DC00B68E6D /* icona_play.png */,
 				FC9B9B8816C113D500B68E6D /* icona_info.png */,
 				FC9B9B8616C110E900B68E6D /* bannerino.png */,
@@ -273,16 +295,21 @@
 				FC9B9BA116C1393500B68E6D /* Default.png in Resources */,
 				FC9B9BA216C1393D00B68E6D /* Default@2x.png in Resources */,
 				FC9B9BA316C1394400B68E6D /* Default-568h@2x.png in Resources */,
-				FCD7FEC516EF9E0200102C77 /* Ancient Roman DNA Project.png in Resources */,
-				FCD7FEC616EF9E0200102C77 /* BlackOut.png in Resources */,
-				FCD7FEC716EF9E0200102C77 /* Fattelo!.png in Resources */,
-				FCD7FEC816EF9E0200102C77 /* Pebble.png in Resources */,
-				FCD7FEC916EF9E0200102C77 /* Proteggiamo i gorilla.png in Resources */,
-				FCD7FECA16EF9E0200102C77 /* Sellanapp.png in Resources */,
-				FCD7FECB16EF9E0200102C77 /* Tous Mécènes.png in Resources */,
-				FCD7FECC16EF9E0200102C77 /* Trail Me Up.png in Resources */,
-				FCD7FECD16EF9E0200102C77 /* UFHO2.png in Resources */,
 				FCD7FECF16EF9EBA00102C77 /* startup.plist in Resources */,
+				B439E01516F1DB5C006DDE64 /* 1 - una storia come tante.png in Resources */,
+				B439E01616F1DB5C006DDE64 /* 2 - l'idea.png in Resources */,
+				B439E01716F1DB5C006DDE64 /* 3 - gli ostacoli.png in Resources */,
+				B439E01816F1DB5C006DDE64 /* 4 - Com-Unity.png in Resources */,
+				B439E01916F1DB5C006DDE64 /* 5 - il progetto.png in Resources */,
+				B439E01A16F1DB5C006DDE64 /* 6 - la raccolta fondi.png in Resources */,
+				B439E01B16F1DB5C006DDE64 /* 7 - nasce una nuova azienda.png in Resources */,
+				B439E01C16F1DB5C006DDE64 /* 8 - un mondo migliore.png in Resources */,
+				B439E01D16F1DB5C006DDE64 /* 9 - imprenditori si diventa.png in Resources */,
+				FCFA1CD616F220C900F1D702 /* bannerinfo.png in Resources */,
+				FCFA1CD816F220D000F1D702 /* BarreLati.png in Resources */,
+				FCFA1CDA16F220DA00F1D702 /* iniziapartita.png in Resources */,
+				FCFA1CDC16F220E200F1D702 /* Quadrato_sfondo.png in Resources */,
+				FCAEF32216F23315009C94F7 /* Smammas.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +327,7 @@
 				FC9B9B8E16C1170C00B68E6D /* playViewController.m in Sources */,
 				FC9B9B9116C1172300B68E6D /* cellaView.m in Sources */,
 				FCEFF7B016C15D9000FCDECC /* dettaglioViewController.m in Sources */,
+				FCAEF32716F233D3009C94F7 /* videoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +395,7 @@
 				INFOPLIST_FILE = "Com-Unity/Com-Unity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
@@ -439,6 +468,7 @@
 				INFOPLIST_FILE = "Com-Unity/Com-Unity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -451,6 +481,7 @@
 				INFOPLIST_FILE = "Com-Unity/Com-Unity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

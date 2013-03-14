@@ -4,27 +4,27 @@
 <dict>
 	<key>descrizione</key>
 	<array>
-		<string>Progetto ideato nel 2007 da un’antropologa presso l’Università della West Florida per studiare il DNA degli scheletri scavati dalle necropoli romane allo scopo di monitorarne i flussi migratori nell’antichità.Il progetto è stato finanziato attraverso la formula del crowd-funding.</string>
-		<string>Film contro la violenza sessuale. Nato come un progetto sociale di un gruppo di ragazzi di 16 e 17 anni e divenuto un lungometraggio professionale intriso della passione, dei sogni e delle paure di vittime innocenti.Il progetto è stato finanziato attraverso la formula del crowd-funding.</string>
-		<string>Ssrl di quattro ragazzi italiani neolaureati che vivono in quattro città diverse. Fattelo! produce una lampada ecologica di gran design fatta con il cartone riciclato della pizza.L’azienda è sorta attraverso la formula del crowd-funding.</string>
-		<string>Start-Up californiana fondata nel 2012 che produce uno smart-clock in grado di connettersi via Wi-Fi ad uno smartphone visualizzandone e-mail, aggiornamenti di Facebook, eventi sul calendario ecc..L’azienda è sorta attraverso la formula del crowd-funding.</string>
-		<string>Progetto sostenuto dal WWF francese per raccogliere i fondi per la salvaguardia dei gorilla di montagna, una specie in via di estinzione, in particolare quelli presenti nel parco di Virunga nella Repubblica Democratica del Congo.Il progetto è stato finanziato attraverso la formula del crowd-funding.</string>
-		<string>Azienda olandese specializzata nel settore delle applicazioni per gli smartphone e nello sviluppo di piattaforme di crowdfunding.L’azienda è sorta, a sua volta, attraverso la formula del crowd-funding.</string>
-		<string>Campagna di raccolta fondi promossa nel 2010 dal Museo del Louvre di Parigi per raccogliere, fra migliaia di amanti dell’arte, i fondi necessari a rilevare da un collezionista privato il capolavoro rinascimentale “Le tre Grazie” di Cranach.Il progetto è stato finanziato attraverso la formula del crowd-funding.</string>
-		<string>Start-Up italiana fondata nel 2011 che ha creato un sito web che permette di fare visite virtuali all&apos;interno di aree raggiungibili solo a piedi, come parchi naturali, montagne, villaggi sperduti, ecc.: una sorta di Google Streetview per sentieri realizzato attraverso un sistema di acquisizione montato su uno zaino, in fase di brevettazione.L’azienda è sorta attraverso la formula del crowd-funding.</string>
-		<string>Videogioco per PC realizzato da 2 ragazzi italiani. Ambientato in un UFO esagonale, lo scopo del gioco è di riuscire a raccogliere delle gemme prima degli avversari, attraversando le diverse tessere esagonali che compongono dei veri e propri labirinti. Il progetto è stato finanziato attraverso la formula del crowd-funding.</string>
+		<string>Mario è un ciclista e spesso pedala per molti chilometri. Pedalando sente la fatica e si rende conto di quanta energia spende; energia che va perduta. Mario pensa a come sarebbe bello se tutta l’energia che esprime pedalando potesse essere incamerata e riutilizzata.</string>
+		<string>A Mario viene un’idea: potrebbe creare una sorta di batteria che, applicata alla bicicletta, accumuli l’energia prodotta pedalando. Mario è certo che sia una grandissima idea, un’idea che rivoluzionerà la produzione di energia e la qualità di vita di molte persone.</string>
+		<string>Dopo aver formulato l&apos;idea, Mario incontra i primi ostacoli: chi potrebbe dargli credito? Mario non ha soldi ma crede fortemente nella sua idea che potrebbe dare tanto a lui e ai suoi simili. Chi lo aiuterà?</string>
+		<string>Mario ha sentito parlare del crowdfunding e lo cerca su internet. Online trova Com-Unity: una piattaforma sulla quale le persone possono pubblicare i loro progetti e stimolare poi amici, parenti e tanti altri a sostenere economicamente le loro idee con piccoli contributi.</string>
+		<string>Mario invia a Com-Unity il suo progetto che verrà validato da un comitato etico e che in seguito, supportato dalla competenza di professionisti, diverrà un vero e proprio piano d’azione per portare a termine il suo sogno.</string>
+		<string>L’idea di Mario piace alla gente che va sul sito di Com-Unity a sostenerla donando piccole somme di denaro. Ad aiutarlo sono i suoi parenti, colleghi, vicini di casa, amici, amici di amici e tanti altri che Mario non osava nemmeno sperare.</string>
+		<string>Ben presto Mario ha gli strumenti per iniziare la sua avventura. Una piccola azienda nasce. Il dispositivo viene creato. Decine, centinaia, migliaia di biciclette iniziano a girare con il dispositivo di Mario. </string>
+		<string>Grazie a Mario e ai suoi sostenitori l’inquinamento dell’aria e le bollette della luce calano mentre le case sono sempre illuminate a giorno.</string>
+		<string>Mario ora è un imprenditore grazie alla sua idea e a Com-Unity, il nuovo modo di fare crowdfunding.</string>
 	</array>
 	<key>foto</key>
 	<array>
-		<string>Ancient Roman DNA Project.png</string>
-		<string>BlackOut.png</string>
-		<string>Fattelo!.png</string>
-		<string>Pebble.png</string>
-		<string>Proteggiamo i gorilla.png</string>
-		<string>Sellanapp.png</string>
-		<string>Tous Mécènes.png</string>
-		<string>Trail Me Up.png</string>
-		<string>UFHO2.png</string>
+		<string>1 - una storia come tante.png</string>
+		<string>2 - l&apos;idea.png</string>
+		<string>3 - gli ostacoli.png</string>
+		<string>4 - Com-Unity.png</string>
+		<string>5 - il progetto.png</string>
+		<string>6 - la raccolta fondi.png</string>
+		<string>7 - nasce una nuova azienda.png</string>
+		<string>8 - un mondo migliore.png</string>
+		<string>9 - imprenditori si diventa.png</string>
 	</array>
 </dict>
 </plist>

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "videoViewController.h"
 
 
 @interface infoViewController : UIPageViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate>{

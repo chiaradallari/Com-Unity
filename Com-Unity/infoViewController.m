@@ -32,7 +32,8 @@
     UIViewController *page2 = [self.storyboard instantiateViewControllerWithIdentifier:@"InfoPage2"];
     UIViewController *page3 = [self.storyboard instantiateViewControllerWithIdentifier:@"InfoPage3"];
     UIViewController *page4 = [self.storyboard instantiateViewControllerWithIdentifier:@"InfoPage4"];
-    pages = [[NSArray alloc] initWithObjects:page1,page2,page3,page4, nil ];
+    videoViewController *page5 = [self.storyboard instantiateViewControllerWithIdentifier:@"InfoPage5"];
+    pages = [[NSArray alloc] initWithObjects:page1,page2,page3,page4,page5, nil ];
     
     UIPageViewController *pvc = [[[UIPageViewController alloc]
                                  //initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl

@@ -25,11 +25,11 @@
             </objects>
             <point key="canvasLocation" x="136" y="360"/>
         </scene>
-        <!--Info View Controller - Info-->
+        <!--Info View Controller - info-->
         <scene sceneID="ZIC-Gf-eTd">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" pageSpacing="4" navigationOrientation="horizontal" spineLocation="none" id="r8F-hG-Hod" customClass="infoViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Info" image="icona_info.png" id="9md-Iw-JHW"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" pageSpacing="4" navigationOrientation="horizontal" spineLocation="none" id="r8F-hG-Hod" userLabel="Info View Controller - info" customClass="infoViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="info" image="icona_info.png" id="9md-Iw-JHW"/>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9aG-Ik-f2K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,45 +45,60 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Tg-Bs-HmO">
                                 <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="BarreLati.png" translatesAutoresizingMaskIntoConstraints="NO" id="628-Vo-SQz"/>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nd4-3r-Awu">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="194" id="5iM-Us-1eH"/>
+                                            <constraint firstAttribute="height" constant="192" id="cE3-13-CpZ"/>
                                         </constraints>
-                                        <string key="text">
-Il crowd-funding è il 
-processo di finanziamento collaborativo 
-tramite cui tante persone ripongono la propria fiducia versando somme di denaro, piccole o grandi, per supportare progetti, iniziative o start-up.</string>
+                                        <string key="text">Il crowdfunding 
+è il processo di 
+finanziamento collaborativo 
+tramite cui tante persone 
+ripongono la propria fiducia 
+versando somme di denaro, 
+piccole o grandi, per supportare
+progetti, iniziative o start-up
+di qualsiasi genere.</string>
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="v1a-BM-8Cz">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="v1a-BM-8Cz">
                                         <constraints>
                                             <constraint firstAttribute="width" constant="74" id="S0f-xu-YFB"/>
                                         </constraints>
                                         <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </pageControl>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="cos’è il crowd-funding?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hla-0h-nhS">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="SZz-eJ-IVf"/>
-                                            <constraint firstAttribute="width" constant="269" id="rhx-GI-mif"/>
-                                        </constraints>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="hla-0h-nhS">
+                                        <string key="text">cos’è il
+crowdfunding?</string>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bannerinfo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2f8-zX-TvE">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="267" id="gLP-cy-X6o"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
+                                <color key="backgroundColor" red="0.74509805439999999" green="0.81176477670000002" blue="0.2588235438" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Nd4-3r-Awu" firstAttribute="top" secondItem="hla-0h-nhS" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0Fr-JN-C3S"/>
                                     <constraint firstItem="Nd4-3r-Awu" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="D1y-iV-34X"/>
-                                    <constraint firstItem="hla-0h-nhS" firstAttribute="centerX" secondItem="Nd4-3r-Awu" secondAttribute="centerX" type="default" id="Gqa-Fv-m7e"/>
-                                    <constraint firstItem="Nd4-3r-Awu" firstAttribute="centerX" secondItem="5Tg-Bs-HmO" secondAttribute="centerX" type="default" id="Nyw-X0-sDL"/>
-                                    <constraint firstAttribute="bottom" secondItem="v1a-BM-8Cz" secondAttribute="bottom" constant="147" id="QLB-q4-h1h"/>
-                                    <constraint firstItem="Nd4-3r-Awu" firstAttribute="centerX" secondItem="v1a-BM-8Cz" secondAttribute="centerX" type="default" id="RYa-Jy-qEN"/>
-                                    <constraint firstAttribute="trailing" secondItem="Nd4-3r-Awu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="k48-wk-K9W"/>
-                                    <constraint firstItem="v1a-BM-8Cz" firstAttribute="top" secondItem="Nd4-3r-Awu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rki-xc-4su"/>
-                                    <constraint firstItem="hla-0h-nhS" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" constant="72" id="uTM-9X-7YH"/>
+                                    <constraint firstItem="2f8-zX-TvE" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" type="default" id="EaK-WU-Azz"/>
+                                    <constraint firstItem="v1a-BM-8Cz" firstAttribute="top" secondItem="Nd4-3r-Awu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="KjF-nC-JRa"/>
+                                    <constraint firstItem="628-Vo-SQz" firstAttribute="trailing" secondItem="5Tg-Bs-HmO" secondAttribute="trailing" type="default" id="NLP-qi-TfN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nd4-3r-Awu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="SW5-lS-Y93"/>
+                                    <constraint firstAttribute="bottom" secondItem="628-Vo-SQz" secondAttribute="bottom" constant="-49" id="UWm-xt-N7f"/>
+                                    <constraint firstItem="2f8-zX-TvE" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" constant="25" id="XNA-dV-cu4"/>
+                                    <constraint firstItem="628-Vo-SQz" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" type="default" id="g2r-y7-i3c"/>
+                                    <constraint firstAttribute="trailing" secondItem="hla-0h-nhS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="iq2-l4-oJM"/>
+                                    <constraint firstItem="Nd4-3r-Awu" firstAttribute="top" secondItem="hla-0h-nhS" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oSk-IQ-HeU"/>
+                                    <constraint firstItem="hla-0h-nhS" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="pbT-86-THR"/>
+                                    <constraint firstItem="hla-0h-nhS" firstAttribute="top" secondItem="2f8-zX-TvE" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rTc-2D-ggo"/>
+                                    <constraint firstItem="628-Vo-SQz" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" type="default" id="xAh-cG-eM0"/>
+                                    <constraint firstItem="Nd4-3r-Awu" firstAttribute="centerX" secondItem="v1a-BM-8Cz" secondAttribute="centerX" type="default" id="xWj-4B-IYy"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -101,10 +116,10 @@ tramite cui tante persone ripongono la propria fiducia versando somme di denaro,
             </objects>
             <point key="canvasLocation" x="1055" y="-384"/>
         </scene>
-        <!--View Controller - Play-->
+        <!--View Controller - play-->
         <scene sceneID="ViA-Be-kHI">
             <objects>
-                <viewController id="M6A-iX-SC9" sceneMemberID="viewController">
+                <viewController id="M6A-iX-SC9" userLabel="View Controller - play" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nMb-jM-8Lr">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -114,22 +129,18 @@ tramite cui tante persone ripongono la propria fiducia versando somme di denaro,
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9zw-Wb-A9e">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="231" id="szA-fi-Jag"/>
+                                            <constraint firstAttribute="height" constant="200" type="user" id="szA-fi-Jag"/>
                                         </constraints>
-                                        <string key="text">gioca a memory con le start-up 
-finanziate dal crowd-funding !</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                        <string key="text">gioca a memory
+con le fasi di creazione d'impresa via crowdfunding!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFi-L8-10I">
-                                        <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="57" id="bwo-9I-Tqz"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                        <state key="normal" title="Inizia Partita">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="inizia partita" backgroundImage="iniziapartita.png">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -140,26 +151,26 @@ finanziate dal crowd-funding !</string>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="zFi-L8-10I" firstAttribute="top" secondItem="9zw-Wb-A9e" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="203-Nk-nRa"/>
                                     <constraint firstAttribute="trailing" secondItem="9zw-Wb-A9e" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4Pn-ba-j9w"/>
-                                    <constraint firstItem="zFi-L8-10I" firstAttribute="centerX" secondItem="LVR-od-l6f" secondAttribute="centerX" type="default" id="Dfh-h9-BcW"/>
-                                    <constraint firstAttribute="bottom" secondItem="zFi-L8-10I" secondAttribute="bottom" constant="101" id="Nqy-Qq-1GM"/>
-                                    <constraint firstItem="zFi-L8-10I" firstAttribute="leading" secondItem="LVR-od-l6f" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ymr-Yg-bBT"/>
+                                    <constraint firstItem="9zw-Wb-A9e" firstAttribute="top" secondItem="LVR-od-l6f" secondAttribute="top" constant="51" id="Eye-Es-hty"/>
+                                    <constraint firstItem="zFi-L8-10I" firstAttribute="trailing" secondItem="LVR-od-l6f" secondAttribute="trailing" type="default" id="W51-jG-5VI"/>
+                                    <constraint firstItem="zFi-L8-10I" firstAttribute="centerX" secondItem="LVR-od-l6f" secondAttribute="centerX" type="default" id="aiy-gK-yIJ"/>
                                     <constraint firstItem="9zw-Wb-A9e" firstAttribute="leading" secondItem="LVR-od-l6f" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="gAF-0W-Emw"/>
-                                    <constraint firstAttribute="trailing" secondItem="zFi-L8-10I" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pfW-uD-AgB"/>
-                                    <constraint firstItem="9zw-Wb-A9e" firstAttribute="top" secondItem="LVR-od-l6f" secondAttribute="top" constant="58" id="zya-v5-6KO"/>
+                                    <constraint firstItem="zFi-L8-10I" firstAttribute="top" secondItem="LVR-od-l6f" secondAttribute="top" constant="261" id="gYP-ut-gWm"/>
+                                    <constraint firstAttribute="bottom" secondItem="zFi-L8-10I" secondAttribute="bottom" constant="142" id="qTg-Si-T4g"/>
+                                    <constraint firstItem="zFi-L8-10I" firstAttribute="leading" secondItem="LVR-od-l6f" secondAttribute="leading" type="default" id="u9g-gJ-kjq"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.7450980544090271" green="0.81176477670669556" blue="0.25882354378700256" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="LVR-od-l6f" secondAttribute="bottom" constant="-5" id="7nw-eV-0LJ"/>
                             <constraint firstItem="LVR-od-l6f" firstAttribute="top" secondItem="nMb-jM-8Lr" secondAttribute="top" type="default" id="BIE-qu-12J"/>
                             <constraint firstItem="LVR-od-l6f" firstAttribute="leading" secondItem="nMb-jM-8Lr" secondAttribute="leading" type="default" id="Lsq-pX-Kn9"/>
-                            <constraint firstItem="LVR-od-l6f" firstAttribute="bottom" secondItem="nMb-jM-8Lr" secondAttribute="bottom" type="default" id="O2V-12-yVp"/>
                             <constraint firstItem="LVR-od-l6f" firstAttribute="trailing" secondItem="nMb-jM-8Lr" secondAttribute="trailing" type="default" id="g9e-J5-alN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Play" id="tTx-ng-ObG"/>
+                    <navigationItem key="navigationItem" title="play" id="tTx-ng-ObG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3TU-Mf-dwZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,26 +191,28 @@ finanziate dal crowd-funding !</string>
                             <inset key="sectionInset" minX="50" minY="30" maxX="50" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cella_play" id="hg7-4x-rXx" customClass="cellaView">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="center" reuseIdentifier="cella_play" id="hg7-4x-rXx" customClass="cellaView">
                                 <rect key="frame" x="50" y="30" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VoY-PV-QSD">
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="100" id="Ikr-7g-KmI"/>
-                                                <constraint firstAttribute="width" constant="100" id="WBU-nm-mvt"/>
-                                            </constraints>
-                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Quadrato_sfondo.png" translatesAutoresizingMaskIntoConstraints="NO" id="t2Q-Ra-kUr"/>
+                                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VoY-PV-QSD"/>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="VoY-PV-QSD" firstAttribute="top" secondItem="hg7-4x-rXx" secondAttribute="top" type="default" id="NPV-t5-t9h"/>
-                                    <constraint firstItem="VoY-PV-QSD" firstAttribute="leading" secondItem="hg7-4x-rXx" secondAttribute="leading" type="default" id="ukx-FC-sE0"/>
+                                    <constraint firstItem="VoY-PV-QSD" firstAttribute="leading" secondItem="hg7-4x-rXx" secondAttribute="leading" type="default" id="3UO-q9-3ec"/>
+                                    <constraint firstItem="VoY-PV-QSD" firstAttribute="trailing" secondItem="hg7-4x-rXx" secondAttribute="trailing" type="default" id="3wS-bh-I9U"/>
+                                    <constraint firstItem="t2Q-Ra-kUr" firstAttribute="trailing" secondItem="hg7-4x-rXx" secondAttribute="trailing" type="default" id="MAu-Nv-CcS"/>
+                                    <constraint firstItem="t2Q-Ra-kUr" firstAttribute="leading" secondItem="hg7-4x-rXx" secondAttribute="leading" type="default" id="c1x-lt-Ge3"/>
+                                    <constraint firstItem="VoY-PV-QSD" firstAttribute="top" secondItem="hg7-4x-rXx" secondAttribute="top" type="default" id="fMv-G8-UGb"/>
+                                    <constraint firstItem="t2Q-Ra-kUr" firstAttribute="top" secondItem="hg7-4x-rXx" secondAttribute="top" type="default" id="mzb-Mr-f5v"/>
+                                    <constraint firstItem="t2Q-Ra-kUr" firstAttribute="bottom" secondItem="hg7-4x-rXx" secondAttribute="bottom" type="default" id="vel-Bj-6xv"/>
+                                    <constraint firstItem="VoY-PV-QSD" firstAttribute="bottom" secondItem="hg7-4x-rXx" secondAttribute="bottom" type="default" id="zub-Y7-jrZ"/>
                                 </constraints>
                                 <size key="customSize" width="100" height="100"/>
                                 <connections>
@@ -236,9 +249,9 @@ finanziate dal crowd-funding !</string>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="LPx-Fz-eL8">
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="p96-3A-wAJ"/>
+                                            <constraint firstAttribute="height" constant="50" type="user" id="p96-3A-wAJ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -252,16 +265,16 @@ finanziate dal crowd-funding !</string>
                                     </textView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="xhI-dc-wnr" secondAttribute="bottom" constant="42" id="3ss-rw-FwD"/>
-                                    <constraint firstItem="STw-3U-k7p" firstAttribute="top" secondItem="NtD-1K-Pzz" secondAttribute="top" constant="39" id="IgF-QR-IHc"/>
+                                    <constraint firstItem="xhI-dc-wnr" firstAttribute="top" secondItem="LPx-Fz-eL8" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="41J-N8-51g"/>
+                                    <constraint firstAttribute="bottom" secondItem="xhI-dc-wnr" secondAttribute="bottom" constant="40" id="GNN-PI-JVG"/>
+                                    <constraint firstItem="LPx-Fz-eL8" firstAttribute="centerX" secondItem="NtD-1K-Pzz" secondAttribute="centerX" type="default" id="HkD-E0-Peb"/>
+                                    <constraint firstItem="STw-3U-k7p" firstAttribute="top" secondItem="NtD-1K-Pzz" secondAttribute="top" constant="45" type="user" id="IgF-QR-IHc"/>
                                     <constraint firstAttribute="trailing" secondItem="xhI-dc-wnr" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JJS-Qv-ZZu"/>
-                                    <constraint firstItem="LPx-Fz-eL8" firstAttribute="top" secondItem="STw-3U-k7p" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Jot-Dj-tM2"/>
                                     <constraint firstItem="LPx-Fz-eL8" firstAttribute="leading" secondItem="NtD-1K-Pzz" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KHX-PI-Kro"/>
-                                    <constraint firstItem="xhI-dc-wnr" firstAttribute="centerX" secondItem="NtD-1K-Pzz" secondAttribute="centerX" type="default" id="Kjf-n1-BNH"/>
                                     <constraint firstAttribute="trailing" secondItem="LPx-Fz-eL8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="PdQ-pb-jIB"/>
                                     <constraint firstAttribute="trailing" secondItem="STw-3U-k7p" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="UB4-oW-nmF"/>
                                     <constraint firstItem="xhI-dc-wnr" firstAttribute="leading" secondItem="NtD-1K-Pzz" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bBR-RG-0V4"/>
-                                    <constraint firstItem="xhI-dc-wnr" firstAttribute="top" secondItem="LPx-Fz-eL8" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="v0B-aw-Wvw"/>
+                                    <constraint firstItem="LPx-Fz-eL8" firstAttribute="top" secondItem="NtD-1K-Pzz" secondAttribute="top" constant="194" id="jDU-tF-sR3"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -362,25 +375,39 @@ finanziate dal crowd-funding !</string>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SkP-YN-PKt">
                                 <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="BarreLati.png" translatesAutoresizingMaskIntoConstraints="NO" id="2k8-lZ-wtb"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bannerinfo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-ZV-lYT">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="267" id="WAI-id-jZy"/>
+                                        </constraints>
+                                    </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2N8-cJ-RNf">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="185" id="ySp-cf-wZc"/>
+                                            <constraint firstAttribute="height" constant="205" id="fBg-ov-Ipq"/>
                                         </constraints>
-                                        <string key="text">
-Il web ed i social network sono il punto di incontro, la “piazza” dove vengono illustrati i progetti e chiunque li trovi interessante può sostenerli sfruttando le enormi potenzialità di abbattimento delle barriere che la rete riesce a creare. </string>
+                                        <string key="text">Il web e i social network
+sono lo strumento che permette
+l'incontro e la collaborazione
+dei soggetti coinvolti
+in un progetto di crowdfunding
+la cui interazione
+dà vita al valore economico:
+in apposite piattaforme
+vengono illustrati i progetti e
+chiunque li trovi interessanti può
+sostenerli con una donazione.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="come funziona il           crowd-funding?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Hzs-gc-q8i">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="46" id="erQ-ji-QQM"/>
-                                        </constraints>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Hzs-gc-q8i">
+                                        <string key="text">come funziona il
+crowdfunding?</string>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="FAw-YH-XWq">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="FAw-YH-XWq">
                                         <constraints>
                                             <constraint firstAttribute="width" constant="74" id="wmp-G9-NBH"/>
                                         </constraints>
@@ -389,16 +416,20 @@ Il web ed i social network sono il punto di incontro, la “piazza” dove vengo
                                     </pageControl>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="2N8-cJ-RNf" firstAttribute="centerX" secondItem="SkP-YN-PKt" secondAttribute="centerX" type="default" id="EMS-Yd-YWN"/>
                                     <constraint firstAttribute="trailing" secondItem="2N8-cJ-RNf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="NOm-OM-t3R"/>
-                                    <constraint firstItem="2N8-cJ-RNf" firstAttribute="top" secondItem="Hzs-gc-q8i" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="OaR-JZ-FQf"/>
-                                    <constraint firstAttribute="bottom" secondItem="FAw-YH-XWq" secondAttribute="bottom" constant="195" id="Oj0-Jk-2G9"/>
-                                    <constraint firstItem="Hzs-gc-q8i" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" constant="70" id="Qex-G8-dyW"/>
-                                    <constraint firstItem="Hzs-gc-q8i" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bMu-lC-4TV"/>
-                                    <constraint firstAttribute="trailing" secondItem="Hzs-gc-q8i" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cxT-j3-LEE"/>
+                                    <constraint firstItem="2k8-lZ-wtb" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" type="default" id="Qgm-FR-Ve3"/>
+                                    <constraint firstItem="Hzs-gc-q8i" firstAttribute="top" secondItem="Rl4-ZV-lYT" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="SCU-ay-Lvr"/>
+                                    <constraint firstItem="Hzs-gc-q8i" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="T4H-rJ-3Fb"/>
+                                    <constraint firstItem="2k8-lZ-wtb" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" type="default" id="aO9-Zh-2WP"/>
+                                    <constraint firstItem="2k8-lZ-wtb" firstAttribute="bottom" secondItem="SkP-YN-PKt" secondAttribute="bottom" type="default" id="fqt-7y-7kW"/>
                                     <constraint firstItem="2N8-cJ-RNf" firstAttribute="centerX" secondItem="FAw-YH-XWq" secondAttribute="centerX" type="default" id="hUI-6i-ca2"/>
+                                    <constraint firstItem="Rl4-ZV-lYT" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" type="default" id="mWk-NN-rcv"/>
+                                    <constraint firstItem="2N8-cJ-RNf" firstAttribute="top" secondItem="Hzs-gc-q8i" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oiF-H9-1A9"/>
                                     <constraint firstItem="2N8-cJ-RNf" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="qE2-4w-7S1"/>
-                                    <constraint firstItem="FAw-YH-XWq" firstAttribute="top" secondItem="2N8-cJ-RNf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qZu-ZH-4e7"/>
+                                    <constraint firstItem="2k8-lZ-wtb" firstAttribute="trailing" secondItem="SkP-YN-PKt" secondAttribute="trailing" type="default" id="qJj-t4-JBn"/>
+                                    <constraint firstItem="FAw-YH-XWq" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" constant="365" id="vhc-l9-NbY"/>
+                                    <constraint firstItem="Rl4-ZV-lYT" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" constant="25" id="wWr-bc-q87"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hzs-gc-q8i" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="yAH-Sg-hos"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -425,22 +456,29 @@ Il web ed i social network sono il punto di incontro, la “piazza” dove vengo
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXk-3o-pFH">
                                 <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="BarreLati.png" translatesAutoresizingMaskIntoConstraints="NO" id="SE0-US-QUn"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bannerinfo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dZF-jz-yrg">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="267" id="jLp-vQ-2fO"/>
+                                        </constraints>
+                                    </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qZJ-6i-r8H">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="183" id="2cL-4d-4C3"/>
+                                            <constraint firstAttribute="height" constant="192" id="yUO-s2-aI3"/>
                                         </constraints>
-                                        <string key="text">Com-Unity 
-è il nuovo portale di 
-crowd-funding creato da 
-Banca Interprovinciale 
-di Modena  e da 
-SCOA di Bologna
-che garantisce trasparenza e una corretta gestione del denaro.</string>
+                                        <string key="text">Com-Unity è il 
+nuovo portale di crowdfunding 
+creato da 
+Banca Interprovinciale di Modena
+e da SCOA di Bologna
+che garantisce trasparenza e 
+una corretta gestione del denaro
+proveniente dalle donazioni.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="jyh-QZ-Lpm">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="jyh-QZ-Lpm">
                                         <constraints>
                                             <constraint firstAttribute="width" constant="74" id="3vT-ZK-i4o"/>
                                         </constraints>
@@ -456,16 +494,20 @@ Com-Unity</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="jyh-QZ-Lpm" firstAttribute="top" secondItem="qZJ-6i-r8H" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="7oj-on-hz6"/>
+                                    <constraint firstItem="SE0-US-QUn" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" type="default" id="9hN-Kb-v1b"/>
+                                    <constraint firstItem="2MU-5p-lUc" firstAttribute="top" secondItem="dZF-jz-yrg" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="E5B-ZQ-HmH"/>
                                     <constraint firstItem="qZJ-6i-r8H" firstAttribute="top" secondItem="2MU-5p-lUc" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="J8j-R1-Myw"/>
                                     <constraint firstAttribute="trailing" secondItem="qZJ-6i-r8H" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JxF-KI-Ymq"/>
-                                    <constraint firstItem="2MU-5p-lUc" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" constant="70" id="K00-18-fFE"/>
                                     <constraint firstItem="qZJ-6i-r8H" firstAttribute="centerX" secondItem="jyh-QZ-Lpm" secondAttribute="centerX" type="default" id="ON9-AY-hwr"/>
-                                    <constraint firstAttribute="bottom" secondItem="jyh-QZ-Lpm" secondAttribute="bottom" constant="195" id="TqF-eX-FoC"/>
+                                    <constraint firstItem="SE0-US-QUn" firstAttribute="trailing" secondItem="qXk-3o-pFH" secondAttribute="trailing" type="default" id="UZF-8j-wMj"/>
                                     <constraint firstItem="qZJ-6i-r8H" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Wqu-DM-lRS"/>
-                                    <constraint firstItem="2MU-5p-lUc" firstAttribute="centerX" secondItem="qXk-3o-pFH" secondAttribute="centerX" type="default" id="fuk-H5-gai"/>
+                                    <constraint firstItem="SE0-US-QUn" firstAttribute="bottom" secondItem="qXk-3o-pFH" secondAttribute="bottom" type="default" id="aEq-2P-xUo"/>
+                                    <constraint firstItem="jyh-QZ-Lpm" firstAttribute="top" secondItem="qZJ-6i-r8H" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="dTd-Ho-Pze"/>
+                                    <constraint firstItem="SE0-US-QUn" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" type="default" id="j1Q-ig-vd6"/>
+                                    <constraint firstItem="dZF-jz-yrg" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" type="default" id="n6j-6z-9XN"/>
                                     <constraint firstItem="2MU-5p-lUc" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="n6r-gB-chI"/>
                                     <constraint firstAttribute="trailing" secondItem="2MU-5p-lUc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="rbx-wN-vWl"/>
+                                    <constraint firstItem="dZF-jz-yrg" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" constant="25" id="zHa-cs-rIH"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -492,18 +534,30 @@ Com-Unity</string>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KjJ-Ez-bQc">
                                 <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="BarreLati.png" translatesAutoresizingMaskIntoConstraints="NO" id="TKZ-yc-vBh"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bannerinfo.png" translatesAutoresizingMaskIntoConstraints="NO" id="qsa-iW-iWr">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="267" id="ozL-oR-tBa"/>
+                                        </constraints>
+                                    </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Af-W7-rf4">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="183" id="VyY-5G-LPn"/>
+                                            <constraint firstAttribute="height" constant="192" id="ZSQ-tB-X1a"/>
                                         </constraints>
-                                        <string key="text">Chi ha un’idea
-può presentare il proprio progetto e stimolare 
-parenti, amici, colleghi e tanti altri a sostenere economicamente il proprio progetto. </string>
+                                        <string key="text">Sulla piattaforma Com-Unity
+chiunque ha un’idea
+può presentare il proprio progetto
+e stimolare 
+parenti, amici e tanti altri
+a sostenere economicamente 
+il proprio progetto
+contribuendo in modo concreto
+alla sua realizzazione.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="tgJ-P4-iuf">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="tgJ-P4-iuf">
                                         <constraints>
                                             <constraint firstAttribute="width" constant="74" id="fmB-OY-vEy"/>
                                         </constraints>
@@ -520,15 +574,19 @@ Com-Unity</string>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="1Af-W7-rf4" firstAttribute="centerX" secondItem="tgJ-P4-iuf" secondAttribute="centerX" type="default" id="0Jp-Xq-CRy"/>
+                                    <constraint firstItem="TKZ-yc-vBh" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" type="default" id="1o6-YZ-qcq"/>
+                                    <constraint firstItem="tgJ-P4-iuf" firstAttribute="top" secondItem="1Af-W7-rf4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="4P4-5c-Zot"/>
+                                    <constraint firstItem="qsa-iW-iWr" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" constant="25" id="51N-2h-iKR"/>
                                     <constraint firstItem="565-qb-WlU" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="6Ox-kY-bXe"/>
-                                    <constraint firstAttribute="bottom" secondItem="tgJ-P4-iuf" secondAttribute="bottom" constant="196" id="GHU-Yk-SEe"/>
                                     <constraint firstAttribute="trailing" secondItem="1Af-W7-rf4" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="MLG-Hg-ls2"/>
                                     <constraint firstItem="1Af-W7-rf4" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="OeI-9b-Que"/>
-                                    <constraint firstItem="565-qb-WlU" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" constant="69" id="US6-6J-ABw"/>
-                                    <constraint firstItem="tgJ-P4-iuf" firstAttribute="top" secondItem="1Af-W7-rf4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W1E-eI-Udg"/>
-                                    <constraint firstItem="1Af-W7-rf4" firstAttribute="top" secondItem="565-qb-WlU" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W7a-vB-Vra"/>
+                                    <constraint firstItem="qsa-iW-iWr" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" type="default" id="RGr-jC-Tjv"/>
+                                    <constraint firstItem="TKZ-yc-vBh" firstAttribute="trailing" secondItem="KjJ-Ez-bQc" secondAttribute="trailing" type="default" id="YLM-7F-ubB"/>
                                     <constraint firstAttribute="trailing" secondItem="565-qb-WlU" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bw6-II-weW"/>
-                                    <constraint firstItem="565-qb-WlU" firstAttribute="centerX" secondItem="KjJ-Ez-bQc" secondAttribute="centerX" type="default" id="cJT-M4-png"/>
+                                    <constraint firstItem="TKZ-yc-vBh" firstAttribute="bottom" secondItem="KjJ-Ez-bQc" secondAttribute="bottom" type="default" id="foT-8f-S7W"/>
+                                    <constraint firstItem="1Af-W7-rf4" firstAttribute="top" secondItem="565-qb-WlU" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jRB-u8-cvk"/>
+                                    <constraint firstItem="TKZ-yc-vBh" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" type="default" id="lxi-dw-gF6"/>
+                                    <constraint firstItem="565-qb-WlU" firstAttribute="top" secondItem="qsa-iW-iWr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="yOa-em-7fG"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -545,11 +603,11 @@ Com-Unity</string>
             </objects>
             <point key="canvasLocation" x="2082" y="-384"/>
         </scene>
-        <!--Navigation Controller - Play-->
+        <!--Navigation Controller - play-->
         <scene sceneID="7Qv-w6-57W">
             <objects>
                 <navigationController id="cVP-Vx-otM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Play" image="icona_play.png" id="8is-to-5Aj"/>
+                    <tabBarItem key="tabBarItem" title="play" image="icona_play.png" id="8is-to-5Aj" userLabel="Tab Bar Item - play"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="6bI-aC-dcy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -564,11 +622,74 @@ Com-Unity</string>
             </objects>
             <point key="canvasLocation" x="677" y="360"/>
         </scene>
+        <!--Video View Controller-->
+        <scene sceneID="iNs-wa-SxY">
+            <objects>
+                <viewController storyboardIdentifier="InfoPage5" id="hux-wt-Pme" customClass="videoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rTX-Rb-6me">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8zI-hP-NlB">
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="BarreLati.png" translatesAutoresizingMaskIntoConstraints="NO" id="9vm-FE-vdC"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bannerinfo.png" translatesAutoresizingMaskIntoConstraints="NO" id="nlU-q1-ink">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="267" id="Hhl-oG-jGh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="SEl-WS-Wvs">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="74" id="Wmi-cM-tga"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </pageControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Dpd-bl-Mfc">
+                                        <string key="text">la piattaforma
+Com-Unity</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9vm-FE-vdC" firstAttribute="bottom" secondItem="8zI-hP-NlB" secondAttribute="bottom" type="default" id="1Dd-Es-YcR"/>
+                                    <constraint firstItem="9vm-FE-vdC" firstAttribute="top" secondItem="8zI-hP-NlB" secondAttribute="top" type="default" id="5X2-9L-Rr8"/>
+                                    <constraint firstItem="Dpd-bl-Mfc" firstAttribute="leading" secondItem="8zI-hP-NlB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="QSC-9T-2cm"/>
+                                    <constraint firstItem="nlU-q1-ink" firstAttribute="leading" secondItem="8zI-hP-NlB" secondAttribute="leading" constant="25" id="TLJ-Kv-PCt"/>
+                                    <constraint firstItem="nlU-q1-ink" firstAttribute="top" secondItem="8zI-hP-NlB" secondAttribute="top" type="default" id="UEU-jX-iO2"/>
+                                    <constraint firstItem="Dpd-bl-Mfc" firstAttribute="top" secondItem="nlU-q1-ink" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="gfO-2d-ied"/>
+                                    <constraint firstItem="SEl-WS-Wvs" firstAttribute="centerX" secondItem="Dpd-bl-Mfc" secondAttribute="centerX" type="default" id="gri-TW-ebz"/>
+                                    <constraint firstItem="9vm-FE-vdC" firstAttribute="leading" secondItem="8zI-hP-NlB" secondAttribute="leading" type="default" id="l8F-EV-oXP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dpd-bl-Mfc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="l8g-he-BqE"/>
+                                    <constraint firstItem="9vm-FE-vdC" firstAttribute="trailing" secondItem="8zI-hP-NlB" secondAttribute="trailing" type="default" id="qBX-m2-Mt5"/>
+                                    <constraint firstItem="SEl-WS-Wvs" firstAttribute="top" secondItem="8zI-hP-NlB" secondAttribute="top" constant="365" id="s58-57-0fG"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.74509805439999999" green="0.81176477670000002" blue="0.2588235438" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="8zI-hP-NlB" firstAttribute="top" secondItem="rTX-Rb-6me" secondAttribute="top" type="default" id="Gvf-tb-fBv"/>
+                            <constraint firstItem="8zI-hP-NlB" firstAttribute="bottom" secondItem="rTX-Rb-6me" secondAttribute="bottom" type="default" id="ffA-tx-tZe"/>
+                            <constraint firstItem="8zI-hP-NlB" firstAttribute="leading" secondItem="rTX-Rb-6me" secondAttribute="leading" type="default" id="lIg-aZ-JP6"/>
+                            <constraint firstItem="8zI-hP-NlB" firstAttribute="trailing" secondItem="rTX-Rb-6me" secondAttribute="trailing" type="default" id="u0V-OU-0oj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XZE-ay-Gud" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2427" y="-384"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="BarreLati.png" width="320" height="548"/>
         <image name="IDCNews.png" width="35" height="35"/>
+        <image name="Quadrato_sfondo.png" width="265" height="265"/>
+        <image name="bannerinfo.png" width="283" height="101"/>
         <image name="icona_info.png" width="35" height="35"/>
         <image name="icona_play.png" width="35" height="35"/>
+        <image name="iniziapartita.png" width="280" height="57"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
@@ -605,6 +726,9 @@ Com-Unity</string>
         </class>
         <class className="playViewController" superclassName="UICollectionViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/playViewController.h"/>
+        </class>
+        <class className="videoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/videoViewController.h"/>
         </class>
         <class className="webViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/webViewController.h"/>
