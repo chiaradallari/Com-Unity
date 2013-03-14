@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -87,18 +87,18 @@ crowdfunding?</string>
                                 <constraints>
                                     <constraint firstItem="Nd4-3r-Awu" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="D1y-iV-34X"/>
                                     <constraint firstItem="2f8-zX-TvE" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" type="default" id="EaK-WU-Azz"/>
-                                    <constraint firstItem="v1a-BM-8Cz" firstAttribute="top" secondItem="Nd4-3r-Awu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="KjF-nC-JRa"/>
                                     <constraint firstItem="628-Vo-SQz" firstAttribute="trailing" secondItem="5Tg-Bs-HmO" secondAttribute="trailing" type="default" id="NLP-qi-TfN"/>
                                     <constraint firstAttribute="trailing" secondItem="Nd4-3r-Awu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="SW5-lS-Y93"/>
                                     <constraint firstAttribute="bottom" secondItem="628-Vo-SQz" secondAttribute="bottom" constant="-49" id="UWm-xt-N7f"/>
                                     <constraint firstItem="2f8-zX-TvE" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" constant="25" id="XNA-dV-cu4"/>
                                     <constraint firstItem="628-Vo-SQz" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" type="default" id="g2r-y7-i3c"/>
                                     <constraint firstAttribute="trailing" secondItem="hla-0h-nhS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="iq2-l4-oJM"/>
-                                    <constraint firstItem="Nd4-3r-Awu" firstAttribute="top" secondItem="hla-0h-nhS" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oSk-IQ-HeU"/>
+                                    <constraint firstItem="v1a-BM-8Cz" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" constant="374" id="jQk-65-fd6"/>
                                     <constraint firstItem="hla-0h-nhS" firstAttribute="leading" secondItem="5Tg-Bs-HmO" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="pbT-86-THR"/>
                                     <constraint firstItem="hla-0h-nhS" firstAttribute="top" secondItem="2f8-zX-TvE" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rTc-2D-ggo"/>
                                     <constraint firstItem="628-Vo-SQz" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" type="default" id="xAh-cG-eM0"/>
                                     <constraint firstItem="Nd4-3r-Awu" firstAttribute="centerX" secondItem="v1a-BM-8Cz" secondAttribute="centerX" type="default" id="xWj-4B-IYy"/>
+                                    <constraint firstItem="Nd4-3r-Awu" firstAttribute="top" secondItem="5Tg-Bs-HmO" secondAttribute="top" constant="155" id="yUd-bS-ZdH"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -138,6 +138,9 @@ con le fasi di creazione d'impresa via crowdfunding!</string>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFi-L8-10I">
                                         <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Oia-XI-lWm"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                         <state key="normal" title="inizia partita" backgroundImage="iniziapartita.png">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -152,12 +155,12 @@ con le fasi di creazione d'impresa via crowdfunding!</string>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="9zw-Wb-A9e" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4Pn-ba-j9w"/>
-                                    <constraint firstItem="9zw-Wb-A9e" firstAttribute="top" secondItem="LVR-od-l6f" secondAttribute="top" constant="51" id="Eye-Es-hty"/>
+                                    <constraint firstItem="9zw-Wb-A9e" firstAttribute="top" secondItem="LVR-od-l6f" secondAttribute="top" constant="45" id="VnV-yg-GC3"/>
                                     <constraint firstItem="zFi-L8-10I" firstAttribute="trailing" secondItem="LVR-od-l6f" secondAttribute="trailing" type="default" id="W51-jG-5VI"/>
-                                    <constraint firstItem="zFi-L8-10I" firstAttribute="centerX" secondItem="LVR-od-l6f" secondAttribute="centerX" type="default" id="aiy-gK-yIJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="zFi-L8-10I" secondAttribute="bottom" constant="135" id="WQC-OS-btv"/>
+                                    <constraint firstItem="zFi-L8-10I" firstAttribute="centerX" secondItem="LVR-od-l6f" secondAttribute="centerX" type="default" id="chw-3w-kXH"/>
+                                    <constraint firstItem="zFi-L8-10I" firstAttribute="top" secondItem="LVR-od-l6f" secondAttribute="top" constant="265" id="dBu-x6-8L3"/>
                                     <constraint firstItem="9zw-Wb-A9e" firstAttribute="leading" secondItem="LVR-od-l6f" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="gAF-0W-Emw"/>
-                                    <constraint firstItem="zFi-L8-10I" firstAttribute="top" secondItem="LVR-od-l6f" secondAttribute="top" constant="261" id="gYP-ut-gWm"/>
-                                    <constraint firstAttribute="bottom" secondItem="zFi-L8-10I" secondAttribute="bottom" constant="142" id="qTg-Si-T4g"/>
                                     <constraint firstItem="zFi-L8-10I" firstAttribute="leading" secondItem="LVR-od-l6f" secondAttribute="leading" type="default" id="u9g-gJ-kjq"/>
                                 </constraints>
                             </scrollView>
@@ -384,7 +387,7 @@ con le fasi di creazione d'impresa via crowdfunding!</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2N8-cJ-RNf">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="205" id="fBg-ov-Ipq"/>
+                                            <constraint firstAttribute="height" constant="225" id="sjE-U9-ShC"/>
                                         </constraints>
                                         <string key="text">Il web e i social network
 sono lo strumento che permette
@@ -416,6 +419,7 @@ crowdfunding?</string>
                                     </pageControl>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="FAw-YH-XWq" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" constant="374" id="9Jn-hV-SlP"/>
                                     <constraint firstAttribute="trailing" secondItem="2N8-cJ-RNf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="NOm-OM-t3R"/>
                                     <constraint firstItem="2k8-lZ-wtb" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" type="default" id="Qgm-FR-Ve3"/>
                                     <constraint firstItem="Hzs-gc-q8i" firstAttribute="top" secondItem="Rl4-ZV-lYT" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="SCU-ay-Lvr"/>
@@ -424,10 +428,9 @@ crowdfunding?</string>
                                     <constraint firstItem="2k8-lZ-wtb" firstAttribute="bottom" secondItem="SkP-YN-PKt" secondAttribute="bottom" type="default" id="fqt-7y-7kW"/>
                                     <constraint firstItem="2N8-cJ-RNf" firstAttribute="centerX" secondItem="FAw-YH-XWq" secondAttribute="centerX" type="default" id="hUI-6i-ca2"/>
                                     <constraint firstItem="Rl4-ZV-lYT" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" type="default" id="mWk-NN-rcv"/>
-                                    <constraint firstItem="2N8-cJ-RNf" firstAttribute="top" secondItem="Hzs-gc-q8i" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oiF-H9-1A9"/>
                                     <constraint firstItem="2N8-cJ-RNf" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="qE2-4w-7S1"/>
                                     <constraint firstItem="2k8-lZ-wtb" firstAttribute="trailing" secondItem="SkP-YN-PKt" secondAttribute="trailing" type="default" id="qJj-t4-JBn"/>
-                                    <constraint firstItem="FAw-YH-XWq" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" constant="365" id="vhc-l9-NbY"/>
+                                    <constraint firstItem="2N8-cJ-RNf" firstAttribute="top" secondItem="SkP-YN-PKt" secondAttribute="top" constant="155" id="rsf-mJ-u7r"/>
                                     <constraint firstItem="Rl4-ZV-lYT" firstAttribute="leading" secondItem="SkP-YN-PKt" secondAttribute="leading" constant="25" id="wWr-bc-q87"/>
                                     <constraint firstAttribute="trailing" secondItem="Hzs-gc-q8i" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="yAH-Sg-hos"/>
                                 </constraints>
@@ -472,7 +475,7 @@ nuovo portale di crowdfunding
 creato da 
 Banca Interprovinciale di Modena
 e da SCOA di Bologna
-che garantisce trasparenza e 
+che garantiscono trasparenza e 
 una corretta gestione del denaro
 proveniente dalle donazioni.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -494,15 +497,15 @@ Com-Unity</string>
                                     </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="jyh-QZ-Lpm" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" constant="374" id="59o-oW-UVk"/>
+                                    <constraint firstItem="qZJ-6i-r8H" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" constant="155" id="6Sh-aA-xmF"/>
                                     <constraint firstItem="SE0-US-QUn" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" type="default" id="9hN-Kb-v1b"/>
                                     <constraint firstItem="2MU-5p-lUc" firstAttribute="top" secondItem="dZF-jz-yrg" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="E5B-ZQ-HmH"/>
-                                    <constraint firstItem="qZJ-6i-r8H" firstAttribute="top" secondItem="2MU-5p-lUc" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="J8j-R1-Myw"/>
                                     <constraint firstAttribute="trailing" secondItem="qZJ-6i-r8H" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JxF-KI-Ymq"/>
                                     <constraint firstItem="qZJ-6i-r8H" firstAttribute="centerX" secondItem="jyh-QZ-Lpm" secondAttribute="centerX" type="default" id="ON9-AY-hwr"/>
                                     <constraint firstItem="SE0-US-QUn" firstAttribute="trailing" secondItem="qXk-3o-pFH" secondAttribute="trailing" type="default" id="UZF-8j-wMj"/>
                                     <constraint firstItem="qZJ-6i-r8H" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Wqu-DM-lRS"/>
                                     <constraint firstItem="SE0-US-QUn" firstAttribute="bottom" secondItem="qXk-3o-pFH" secondAttribute="bottom" type="default" id="aEq-2P-xUo"/>
-                                    <constraint firstItem="jyh-QZ-Lpm" firstAttribute="top" secondItem="qZJ-6i-r8H" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="dTd-Ho-Pze"/>
                                     <constraint firstItem="SE0-US-QUn" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" type="default" id="j1Q-ig-vd6"/>
                                     <constraint firstItem="dZF-jz-yrg" firstAttribute="top" secondItem="qXk-3o-pFH" secondAttribute="top" type="default" id="n6j-6z-9XN"/>
                                     <constraint firstItem="2MU-5p-lUc" firstAttribute="leading" secondItem="qXk-3o-pFH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="n6r-gB-chI"/>
@@ -575,17 +578,17 @@ Com-Unity</string>
                                 <constraints>
                                     <constraint firstItem="1Af-W7-rf4" firstAttribute="centerX" secondItem="tgJ-P4-iuf" secondAttribute="centerX" type="default" id="0Jp-Xq-CRy"/>
                                     <constraint firstItem="TKZ-yc-vBh" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" type="default" id="1o6-YZ-qcq"/>
-                                    <constraint firstItem="tgJ-P4-iuf" firstAttribute="top" secondItem="1Af-W7-rf4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="4P4-5c-Zot"/>
                                     <constraint firstItem="qsa-iW-iWr" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" constant="25" id="51N-2h-iKR"/>
                                     <constraint firstItem="565-qb-WlU" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="6Ox-kY-bXe"/>
+                                    <constraint firstItem="tgJ-P4-iuf" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" constant="374" id="E3O-Or-RW8"/>
                                     <constraint firstAttribute="trailing" secondItem="1Af-W7-rf4" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="MLG-Hg-ls2"/>
                                     <constraint firstItem="1Af-W7-rf4" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="OeI-9b-Que"/>
                                     <constraint firstItem="qsa-iW-iWr" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" type="default" id="RGr-jC-Tjv"/>
                                     <constraint firstItem="TKZ-yc-vBh" firstAttribute="trailing" secondItem="KjJ-Ez-bQc" secondAttribute="trailing" type="default" id="YLM-7F-ubB"/>
                                     <constraint firstAttribute="trailing" secondItem="565-qb-WlU" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bw6-II-weW"/>
                                     <constraint firstItem="TKZ-yc-vBh" firstAttribute="bottom" secondItem="KjJ-Ez-bQc" secondAttribute="bottom" type="default" id="foT-8f-S7W"/>
-                                    <constraint firstItem="1Af-W7-rf4" firstAttribute="top" secondItem="565-qb-WlU" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jRB-u8-cvk"/>
                                     <constraint firstItem="TKZ-yc-vBh" firstAttribute="leading" secondItem="KjJ-Ez-bQc" secondAttribute="leading" type="default" id="lxi-dw-gF6"/>
+                                    <constraint firstItem="1Af-W7-rf4" firstAttribute="top" secondItem="KjJ-Ez-bQc" secondAttribute="top" constant="155" id="ty4-79-VbE"/>
                                     <constraint firstItem="565-qb-WlU" firstAttribute="top" secondItem="qsa-iW-iWr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="yOa-em-7fG"/>
                                 </constraints>
                             </scrollView>
@@ -656,6 +659,7 @@ Com-Unity</string>
                                 <constraints>
                                     <constraint firstItem="9vm-FE-vdC" firstAttribute="bottom" secondItem="8zI-hP-NlB" secondAttribute="bottom" type="default" id="1Dd-Es-YcR"/>
                                     <constraint firstItem="9vm-FE-vdC" firstAttribute="top" secondItem="8zI-hP-NlB" secondAttribute="top" type="default" id="5X2-9L-Rr8"/>
+                                    <constraint firstItem="SEl-WS-Wvs" firstAttribute="top" secondItem="8zI-hP-NlB" secondAttribute="top" constant="374" id="Lm6-uI-pFg"/>
                                     <constraint firstItem="Dpd-bl-Mfc" firstAttribute="leading" secondItem="8zI-hP-NlB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="QSC-9T-2cm"/>
                                     <constraint firstItem="nlU-q1-ink" firstAttribute="leading" secondItem="8zI-hP-NlB" secondAttribute="leading" constant="25" id="TLJ-Kv-PCt"/>
                                     <constraint firstItem="nlU-q1-ink" firstAttribute="top" secondItem="8zI-hP-NlB" secondAttribute="top" type="default" id="UEU-jX-iO2"/>
@@ -664,7 +668,6 @@ Com-Unity</string>
                                     <constraint firstItem="9vm-FE-vdC" firstAttribute="leading" secondItem="8zI-hP-NlB" secondAttribute="leading" type="default" id="l8F-EV-oXP"/>
                                     <constraint firstAttribute="trailing" secondItem="Dpd-bl-Mfc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="l8g-he-BqE"/>
                                     <constraint firstItem="9vm-FE-vdC" firstAttribute="trailing" secondItem="8zI-hP-NlB" secondAttribute="trailing" type="default" id="qBX-m2-Mt5"/>
-                                    <constraint firstItem="SEl-WS-Wvs" firstAttribute="top" secondItem="8zI-hP-NlB" secondAttribute="top" constant="365" id="s58-57-0fG"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

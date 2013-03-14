@@ -16,6 +16,7 @@
 		B439E01B16F1DB5C006DDE64 /* 7 - nasce una nuova azienda.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E01216F1DB5C006DDE64 /* 7 - nasce una nuova azienda.png */; };
 		B439E01C16F1DB5C006DDE64 /* 8 - un mondo migliore.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E01316F1DB5C006DDE64 /* 8 - un mondo migliore.png */; };
 		B439E01D16F1DB5C006DDE64 /* 9 - imprenditori si diventa.png in Resources */ = {isa = PBXBuildFile; fileRef = B439E01416F1DB5C006DDE64 /* 9 - imprenditori si diventa.png */; };
+		B444DB5916F2960500263EFA /* VideoComUnity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B444DB5816F2960500263EFA /* VideoComUnity.mp4 */; };
 		FC45A86616C0270A00D8F29C /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC45A86516C0270A00D8F29C /* infoViewController.m */; };
 		FC6AB75216BFE47A00D41728 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AB75116BFE47A00D41728 /* UIKit.framework */; };
 		FC6AB75416BFE47A00D41728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6AB75316BFE47A00D41728 /* Foundation.framework */; };
@@ -43,7 +44,6 @@
 		FC9B9BA116C1393500B68E6D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9B9BA016C1393500B68E6D /* Default.png */; };
 		FC9B9BA216C1393D00B68E6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9B9B9C16C1391400B68E6D /* Default@2x.png */; };
 		FC9B9BA316C1394400B68E6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9B9B9E16C1391D00B68E6D /* Default-568h@2x.png */; };
-		FCAEF32216F23315009C94F7 /* Smammas.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FCAEF32116F23315009C94F7 /* Smammas.mp4 */; };
 		FCAEF32416F23360009C94F7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAEF32316F23360009C94F7 /* MediaPlayer.framework */; };
 		FCAEF32716F233D3009C94F7 /* videoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAEF32616F233D3009C94F7 /* videoViewController.m */; };
 		FCD7FECF16EF9EBA00102C77 /* startup.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FECE16EF9EBA00102C77 /* startup.plist */; };
@@ -64,6 +64,7 @@
 		B439E01216F1DB5C006DDE64 /* 7 - nasce una nuova azienda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7 - nasce una nuova azienda.png"; sourceTree = "<group>"; };
 		B439E01316F1DB5C006DDE64 /* 8 - un mondo migliore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8 - un mondo migliore.png"; sourceTree = "<group>"; };
 		B439E01416F1DB5C006DDE64 /* 9 - imprenditori si diventa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9 - imprenditori si diventa.png"; sourceTree = "<group>"; };
+		B444DB5816F2960500263EFA /* VideoComUnity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoComUnity.mp4; sourceTree = "<group>"; };
 		FC45A86416C0270A00D8F29C /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
 		FC45A86516C0270A00D8F29C /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
 		FC6AB74E16BFE47A00D41728 /* Com-Unity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Com-Unity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +103,6 @@
 		FC9B9B9C16C1391400B68E6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FC9B9B9E16C1391D00B68E6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FC9B9BA016C1393500B68E6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FCAEF32116F23315009C94F7 /* Smammas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Smammas.mp4; sourceTree = "<group>"; };
 		FCAEF32316F23360009C94F7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FCAEF32516F233D3009C94F7 /* videoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoViewController.h; sourceTree = "<group>"; };
 		FCAEF32616F233D3009C94F7 /* videoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoViewController.m; sourceTree = "<group>"; };
@@ -178,6 +178,7 @@
 				FC6AB76C16BFE47A00D41728 /* MainStoryboard_iPad.storyboard */,
 				FC6AB78216BFE5E900D41728 /* webViewController.h */,
 				FC6AB78316BFE5E900D41728 /* webViewController.m */,
+				B444DB5816F2960500263EFA /* VideoComUnity.mp4 */,
 				FC45A86416C0270A00D8F29C /* infoViewController.h */,
 				FC45A86516C0270A00D8F29C /* infoViewController.m */,
 				FCAEF32516F233D3009C94F7 /* videoViewController.h */,
@@ -193,7 +194,6 @@
 				FCFA1CDB16F220E200F1D702 /* Quadrato_sfondo.png */,
 				FCFA1CD916F220DA00F1D702 /* iniziapartita.png */,
 				FCFA1CD716F220D000F1D702 /* BarreLati.png */,
-				FCAEF32116F23315009C94F7 /* Smammas.mp4 */,
 				B439E00C16F1DB5C006DDE64 /* 1 - una storia come tante.png */,
 				B439E00D16F1DB5C006DDE64 /* 2 - l'idea.png */,
 				B439E00E16F1DB5C006DDE64 /* 3 - gli ostacoli.png */,
@@ -309,7 +309,7 @@
 				FCFA1CD816F220D000F1D702 /* BarreLati.png in Resources */,
 				FCFA1CDA16F220DA00F1D702 /* iniziapartita.png in Resources */,
 				FCFA1CDC16F220E200F1D702 /* Quadrato_sfondo.png in Resources */,
-				FCAEF32216F23315009C94F7 /* Smammas.mp4 in Resources */,
+				B444DB5916F2960500263EFA /* VideoComUnity.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

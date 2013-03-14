@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Smammas" ofType:@"mp4"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"VideoComUnity" ofType:@"mp4"];
     
     myPlayer = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL fileURLWithPath:path]];
     [[NSNotificationCenter defaultCenter] addObserver:self
