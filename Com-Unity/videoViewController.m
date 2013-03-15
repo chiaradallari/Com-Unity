@@ -40,7 +40,7 @@
 	frame.size.width=320;
     frame.size.height=192;
 	frame.origin.x=0;
-    frame.origin.y=165;
+    frame.origin.y=175;
     
     myPlayer.scalingMode=MPMovieScalingModeAspectFit;
     [myPlayer.view setFrame:frame];
